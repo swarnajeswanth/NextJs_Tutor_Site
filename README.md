@@ -109,30 +109,18 @@ src/
 
 ---
 
-## 🤖 AI Usage (Claude & GitHub Copilot)
+##  AI Usage (Claude & GitHub Copilot)
 
 ### Where AI Helped
 
 | Area | AI Contribution |
 |------|----------------|
-| **Component scaffolding** | Generated initial JSX structure for Hero, Navbar, Footer |
 | **Tailwind class suggestions** | Autocomplete for complex responsive layouts and gradient combinations |
-| **Animation code** | `IntersectionObserver` logic in `WhyAccredian`, Hero entrance animation |
 | **API route boilerplate** | Initial structure for the `/api/leads` Next.js route handler |
-| **README template** | Starting point for this documentation |
-
-### What I Modified / Improved Manually
-
-- **Re-ordered page sections** — Corrected StatsBar placement (was after Footer; moved to after Hero)
-- **Fixed the logo ticker** — Corrected CSS `translateX` end value to `-50%` and duplicated the logo array for seamless looping
-- **Dropdown UX** — Rewrote hover logic using React state + `onMouseEnter`/`onMouseLeave` for better reliability
-- **Form validation** — Added field-level error messages client-side and server-side validation in the API route
-- **Color system** — Unified gradient palette across all sections (AI used inconsistent values)
-- **Code cleanup** — Removed unused `next/image` import flagged by ESLint
 
 ---
 
-## ⭐ Bonus Features
+##  Bonus Features
 
 - ✅ **Lead capture form** — Full form with client + server validation
 - ✅ **API route** — `POST /api/leads` stores submissions; `GET /api/leads` for admin review
@@ -140,17 +128,5 @@ src/
 
 ---
 
-## 🛠️ Improvements With More Time
 
-1. **Persistent lead storage** — Replace in-memory store with Supabase + email notification via Resend
-2. **Animation polish** — Add `framer-motion` for smoother section transitions and staggered reveals
-3. **Accessibility** — Full keyboard navigation audit, ARIA labels on carousel controls
-4. **SEO** — Add `generateMetadata()` for OG tags, JSON-LD Organization schema
-5. **Performance** — Real partner institute logos as `<Image>` with `priority` prop for LCP
-6. **Testing** — Playwright E2E tests for the lead form flow and navigation
 
----
-
-## 📄 License
-
-MIT — built for educational/assignment purposes.
