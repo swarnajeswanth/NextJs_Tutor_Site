@@ -105,8 +105,7 @@ src/
 3. Stores leads in-memory with timestamps and unique IDs
 4. Returns structured JSON responses with appropriate HTTP status codes
 
-> **Note:** In-memory storage resets on server restart. For production, swap for a database (PostgreSQL via Prisma, MongoDB, or Supabase).
-
+> **Note:** In-memory storage resets on server restart. 
 ---
 
 ##  AI Usage (Claude & GitHub Copilot)
@@ -120,13 +119,6 @@ src/
 
 ---
 
-##  Bonus Features
-
-- ✅ **Lead capture form** — Full form with client + server validation
-- ✅ **API route** — `POST /api/leads` stores submissions; `GET /api/leads` for admin review
-- ✅ **Animated logo ticker** — CSS keyframe marquee with pause-on-hover
-
----
 
 
 
