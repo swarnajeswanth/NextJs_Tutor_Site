@@ -6,7 +6,7 @@ A pixel-faithful partial clone of [enterprise.accredian.com](https://enterprise.
 
 ## 🚀 Live Demo
 
-> 🔗 _Deploy to Vercel and paste your link here_
+> 🔗https://next-js-tutor-site.vercel.app/
 
 ---
 
